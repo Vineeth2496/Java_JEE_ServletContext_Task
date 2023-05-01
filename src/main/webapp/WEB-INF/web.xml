@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" version="3.0">
+  <display-name>com.web3</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  
+  
+  <!-- common info related to context obj -->
+  
+   <context-param>
+            <param-name>course</param-name>
+            <param-value>JAVA</param-value>    
+   </context-param>
+   
+   <context-param>
+            <param-name>Trainer</param-name>
+            <param-value>YK</param-value>    
+   </context-param>
+   
+   
+   
+   
+   <servlet>
+      <servlet-name>Ser1</servlet-name>
+      <servlet-class>Ser1</servlet-class>
+   </servlet>
+   <servlet-mapping>
+     <servlet-name>Ser1</servlet-name>
+     <url-pattern>/Ser1</url-pattern>
+   </servlet-mapping>
+   
+  
+  
+  <servlet>
+      <servlet-name>Ser2</servlet-name>
+      <servlet-class>Ser2</servlet-class>
+   </servlet>
+   <servlet-mapping>
+     <servlet-name>Ser2</servlet-name>
+     <url-pattern>/Ser2</url-pattern>
+   </servlet-mapping>
+   
+  
+  <servlet>
+      <servlet-name>Ser3</servlet-name>
+      <servlet-class>Ser3</servlet-class>
+   </servlet>
+   <servlet-mapping>
+     <servlet-name>Ser3</servlet-name>
+     <url-pattern>/Ser3</url-pattern>
+   </servlet-mapping>
+   
+  
+</web-app>
